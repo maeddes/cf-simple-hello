@@ -1,0 +1,6 @@
+---
+applications:
+- name: cf-simple-hello
+  memory: 256M
+  instances: 1
+  buildpack: java_buildpack
