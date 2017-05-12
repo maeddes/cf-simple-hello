@@ -13,7 +13,7 @@ public class SimpleController {
 	
     @RequestMapping("/")
     public String index() {
-        return "Hello, bootiful World! Instance: "+instance;
+        return "Howdy, bootiful World! Instance: "+instance;
     }
     	
     @RequestMapping("/crash")
