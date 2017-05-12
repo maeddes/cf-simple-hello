@@ -1,0 +1,8 @@
+---
+applications:
+- name: cf-simple-hello
+  memory: 256M
+  instances: 1
+  buildpack: java_buildpack
+  domain: local.pcfdev.io
+  path: target/demo-0.0.1-SNAPSHOT.jar
