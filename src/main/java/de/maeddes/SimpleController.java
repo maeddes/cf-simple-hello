@@ -18,7 +18,7 @@ public class SimpleController {
     	
     @RequestMapping("/crash")
     public String crash() {
-    	System.exit(0); 
+    	//System.exit(0); 
         return "Hello, bootiful World!";
     }
 
